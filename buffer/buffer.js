@@ -14,3 +14,10 @@ console.log(buf2)
 
 //  访问
 console.log(buf2[1])
+
+// 关于length
+var str1 = '测试';
+var buf1 = Buffer.from(str1)
+
+console.log(str1.length);   //  2
+console.log(buf1.length);   //  6
